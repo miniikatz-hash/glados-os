@@ -156,7 +156,7 @@ export function PrivacyPage() {
   return (
     <LegalLayout toc={PRIVACY_TOC}>
       <h1>
-        GladOS AI — <span className="cyan">Privacy Policy</span>
+        Vylith AI — <span className="cyan">Privacy Policy</span>
       </h1>
       <div className="legal-date">
         Last Updated: May 2026 <span>Effective Date: May 2026</span>
@@ -164,9 +164,9 @@ export function PrivacyPage() {
 
       <div className="legal-intro">
         <p>
-          GladOS AI is committed to protecting the privacy and security of every
+          Vylith AI is committed to protecting the privacy and security of every
           individual and organization that interacts with our platform. This
-          Privacy Policy describes in detail how GladOS AI (&quot;we&quot;,
+          Privacy Policy describes in detail how Vylith AI (&quot;we&quot;,
           &quot;us&quot;, &quot;our&quot;, &quot;the Company&quot;) collects,
           processes, uses, stores, shares, and protects information obtained
           through our website, platform, products, APIs, and services
@@ -183,9 +183,9 @@ export function PrivacyPage() {
           <span className="lnum">01</span>Who We Are
         </h2>
         <p>
-          GladOS AI is an artificial intelligence technology company developing
+          Vylith AI is an artificial intelligence technology company developing
           self-evolving agent systems for individuals, businesses, enterprises,
-          and government entities. Our products include the GladOS Agent Core,
+          and government entities. Our products include the Vylith Agent Core,
           GameHub AI, and GovOS. We operate globally and serve clients across
           multiple industries.
         </p>
@@ -202,7 +202,7 @@ export function PrivacyPage() {
         <ul>
           <li>Full name and contact details (email address, phone number, organization name)</li>
           <li>Account credentials (username, password — stored in hashed form only)</li>
-          <li>Messages, instructions, and tasks submitted to the GladOS agent</li>
+          <li>Messages, instructions, and tasks submitted to the Vylith agent</li>
           <li>Files, documents, and data uploaded to the platform</li>
           <li>Communications with our support team</li>
           <li>Information submitted via contact or waitlist forms</li>
@@ -220,7 +220,7 @@ export function PrivacyPage() {
 
         <h3>2.3 Information From Third Parties</h3>
         <ul>
-          <li>If you connect third-party services (email, calendar, APIs) to GladOS AI, we may receive data from those services as authorized by you</li>
+          <li>If you connect third-party services (email, calendar, APIs) to Vylith AI, we may receive data from those services as authorized by you</li>
           <li>Publicly available business information for enterprise onboarding verification</li>
         </ul>
       </div>
@@ -232,7 +232,7 @@ export function PrivacyPage() {
           <span className="lnum">03</span>Cloud vs Local Deployment
         </h2>
         <p>
-          GladOS AI offers two deployment modes. Your privacy rights and data handling differ significantly:
+          Vylith AI offers two deployment modes. Your privacy rights and data handling differ significantly:
         </p>
 
         <div className="legal-compare">
@@ -251,7 +251,7 @@ export function PrivacyPage() {
             <h4>🔒 Local Deployment</h4>
             <ul>
               <li>Data never leaves your machine or private network</li>
-              <li>GladOS AI makes zero network calls to external servers</li>
+              <li>Vylith AI makes zero network calls to external servers</li>
               <li>We have no access to your data, conversations, or files</li>
               <li>Complete data sovereignty guaranteed</li>
               <li>You are responsible for your own infrastructure security</li>
@@ -268,7 +268,7 @@ export function PrivacyPage() {
           <span className="lnum">04</span>How We Use Your Information
         </h2>
         <ul>
-          <li>To operate, maintain, and improve the GladOS AI platform and agent capabilities</li>
+          <li>To operate, maintain, and improve the Vylith AI platform and agent capabilities</li>
           <li>To personalize your experience and enable continuous learning features</li>
           <li>To process and fulfill your requests, tasks, and instructions</li>
           <li>To communicate regarding your account, updates, and service changes</li>
@@ -290,7 +290,7 @@ export function PrivacyPage() {
 
         <h3>5.1 We Do Not Sell Your Data</h3>
         <p>
-          GladOS AI does not sell, rent, trade, or otherwise transfer your personal information to third parties for their marketing or commercial purposes. Ever.
+          Vylith AI does not sell, rent, trade, or otherwise transfer your personal information to third parties for their marketing or commercial purposes. Ever.
         </p>
 
         <h3>5.2 Service Providers</h3>
@@ -299,7 +299,7 @@ export function PrivacyPage() {
         </p>
 
         <h3>5.3 Legal Requirements</h3>
-        <p>We may disclose your information if required by law, court order, or government regulation, or to protect the rights, property, or safety of GladOS AI, our users, or the public.</p>
+        <p>We may disclose your information if required by law, court order, or government regulation, or to protect the rights, property, or safety of Vylith AI, our users, or the public.</p>
 
         <h3>5.4 Business Transfers</h3>
         <p>
@@ -321,7 +321,7 @@ export function PrivacyPage() {
           <li><strong className="text-white/70">Anonymized data:</strong> Aggregate data may be retained indefinitely for research</li>
           <li><strong className="text-white/70">Local deployment:</strong> We retain no data — nothing reaches our servers</li>
           <li><strong className="text-white/70">Backup copies:</strong> May persist up to 30 additional days for disaster recovery</li>
-          <li>Request early deletion anytime at privacy@gladosai.com</li>
+          <li>Request early deletion anytime at privacy@Vylithai.com</li>
         </ul>
       </div>
 
@@ -341,7 +341,7 @@ export function PrivacyPage() {
           <li><strong className="text-white/70">Right to Withdraw Consent</strong> — Withdraw consent at any time</li>
           <li><strong className="text-white/70">Right to Complain</strong> — File a complaint with data protection authorities</li>
         </ul>
-        <p>Contact privacy@gladosai.com to exercise any right. We respond within 30 days.</p>
+        <p>Contact privacy@Vylithai.com to exercise any right. We respond within 30 days.</p>
       </div>
 
       <div className="legal-divider" />
@@ -384,7 +384,7 @@ export function PrivacyPage() {
           <span className="lnum">10</span>Children's Privacy
         </h2>
         <p>
-          GladOS AI services are not directed at individuals under 18. We do not knowingly collect personal information from minors. If we become aware that a minor has provided information, we will delete it immediately.
+          Vylith AI services are not directed at individuals under 18. We do not knowingly collect personal information from minors. If we become aware that a minor has provided information, we will delete it immediately.
         </p>
       </div>
 
@@ -395,7 +395,7 @@ export function PrivacyPage() {
           <span className="lnum">11</span>International Data Transfers
         </h2>
         <p>
-          GladOS AI operates globally. By using our Services, you acknowledge that your information may be processed in countries other than your own. We ensure appropriate safeguards for all international transfers.
+          Vylith AI operates globally. By using our Services, you acknowledge that your information may be processed in countries other than your own. We ensure appropriate safeguards for all international transfers.
         </p>
       </div>
 
@@ -431,9 +431,9 @@ export function PrivacyPage() {
           <span className="lnum">14</span>Contact Us
         </h2>
         <div className="legal-hl">
-          <div className="hl-label">GladOS AI Privacy Team</div>
+          <div className="hl-label">Vylith AI Privacy Team</div>
           <p>
-            Email: <a href="mailto:privacy@gladosai.com">privacy@gladosai.com</a>
+            Email: <a href="mailto:privacy@Vylithai.com">privacy@Vylithai.com</a>
             <br />
             For urgent privacy concerns, mark subject: URGENT — PRIVACY
           </p>
@@ -475,7 +475,7 @@ export function TermsPage() {
   return (
     <LegalLayout toc={TERMS_TOC}>
       <h1>
-        GladOS AI — <span className="cyan">Terms of Service</span>
+        Vylith AI — <span className="cyan">Terms of Service</span>
       </h1>
       <div className="legal-date">
         Last Updated: May 2026 <span>Effective Date: May 2026</span>
@@ -484,9 +484,9 @@ export function TermsPage() {
       <div className="legal-intro">
         <p>
           These Terms of Service (&quot;Terms&quot;, &quot;Agreement&quot;) constitute a legally
-          binding agreement between you (&quot;User&quot;, &quot;you&quot;, &quot;your&quot;) and GladOS AI
+          binding agreement between you (&quot;User&quot;, &quot;you&quot;, &quot;your&quot;) and Vylith AI
           (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;, &quot;our&quot;). By accessing, registering for, or
-          using any GladOS AI product, platform, API, or service, you confirm that you
+          using any Vylith AI product, platform, API, or service, you confirm that you
           have read, understood, and agree to be bound by these Terms in their entirety.
           If you do not agree with any part of these Terms, you must immediately
           discontinue use of our Services.
@@ -504,9 +504,9 @@ export function TermsPage() {
 
       <div className="legal-section" id="t-services">
         <h2><span className="lnum">02</span>Description of Services</h2>
-        <p>GladOS AI provides proprietary self-evolving AI agent technology:</p>
+        <p>Vylith AI provides proprietary self-evolving AI agent technology:</p>
         <ul>
-          <li><strong className="text-white/70">GladOS Agent Core</strong> — Continuously learning AI agent: research, automation, desktop control, communication, code generation, data analysis, problem solving</li>
+          <li><strong className="text-white/70">Vylith Agent Core</strong> — Continuously learning AI agent: research, automation, desktop control, communication, code generation, data analysis, problem solving</li>
           <li><strong className="text-white/70">GameHub AI</strong> — AI-powered gaming center management: bookings, billing, analytics, staff scheduling, inventory, loyalty (in development)</li>
           <li><strong className="text-white/70">GovOS</strong> — Enterprise/government AI infrastructure: citizen services, workflow automation, compliance, decision support, on-premise deployment</li>
         </ul>
@@ -535,7 +535,7 @@ export function TermsPage() {
           <li>Maintain confidentiality of account credentials</li>
           <li>Notify us immediately of unauthorized access</li>
           <li>You are fully responsible for all activity under your account</li>
-          <li>GladOS AI is not liable for losses from credential failures</li>
+          <li>Vylith AI is not liable for losses from credential failures</li>
           <li>We may terminate accounts with fraudulent information</li>
         </ul>
       </div>
@@ -568,9 +568,9 @@ export function TermsPage() {
         <ul>
           <li>Agent outputs should be reviewed before acting in critical situations</li>
           <li>Continuous learning means behavior evolves over time — responses may vary across sessions</li>
-          <li>GladOS AI is not a substitute for professional legal, medical, or financial advice</li>
+          <li>Vylith AI is not a substitute for professional legal, medical, or financial advice</li>
           <li>Users are solely responsible for verifying accuracy of agent outputs</li>
-          <li>GladOS AI is not liable for decisions made based on agent outputs</li>
+          <li>Vylith AI is not liable for decisions made based on agent outputs</li>
           <li>Desktop control features require your authorization — you accept full responsibility</li>
           <li>Automation success is not guaranteed in all environments</li>
         </ul>
@@ -580,15 +580,15 @@ export function TermsPage() {
 
       <div className="legal-section" id="t-ip">
         <h2><span className="lnum">07</span>Intellectual Property Rights</h2>
-        <h3>7.1 GladOS AI Ownership</h3>
-        <p>GladOS AI retains all rights to the Services, including models, algorithms, software, designs, and trademarks. Nothing transfers ownership to you.</p>
+        <h3>7.1 Vylith AI Ownership</h3>
+        <p>Vylith AI retains all rights to the Services, including models, algorithms, software, designs, and trademarks. Nothing transfers ownership to you.</p>
         <h3>7.2 Your Content</h3>
-        <p>You retain ownership of all content you submit. By using cloud Services, you grant GladOS AI a limited, non-exclusive license to process content solely to provide Services.</p>
+        <p>You retain ownership of all content you submit. By using cloud Services, you grant Vylith AI a limited, non-exclusive license to process content solely to provide Services.</p>
         <h3>7.3 Feedback</h3>
-        <p>Suggestions or feedback may be used by GladOS AI without restriction or compensation.</p>
+        <p>Suggestions or feedback may be used by Vylith AI without restriction or compensation.</p>
         <h3>7.4 Local Deployment Exemption</h3>
         <div className="legal-hl">
-          <p>Local deployment users grant no data license to GladOS AI — no data is transmitted to our systems.</p>
+          <p>Local deployment users grant no data license to Vylith AI — no data is transmitted to our systems.</p>
         </div>
       </div>
 
@@ -631,7 +631,7 @@ export function TermsPage() {
       <div className="legal-section" id="t-third">
         <h2><span className="lnum">11</span>Third Party Integrations</h2>
         <ul>
-          <li>GladOS AI may integrate with third-party services at your direction</li>
+          <li>Vylith AI may integrate with third-party services at your direction</li>
           <li>We are not responsible for third-party availability or behavior</li>
           <li>Third-party use is subject to their own terms</li>
           <li>We are not liable for data loss from third-party integrations</li>
@@ -643,8 +643,8 @@ export function TermsPage() {
       <div className="legal-section" id="t-terminate">
         <h2><span className="lnum">12</span>Termination</h2>
         <h3>12.1 By You</h3>
-        <p>Terminate anytime via account settings or legal@gladosai.com. No refund of prepaid fees.</p>
-        <h3>12.2 By GladOS AI</h3>
+        <p>Terminate anytime via account settings or legal@Vylithai.com. No refund of prepaid fees.</p>
+        <h3>12.2 By Vylith AI</h3>
         <p>We may suspend or terminate immediately if you violate these Terms, engage in fraud, or pose a risk to users or infrastructure.</p>
         <h3>12.3 Effect</h3>
         <p>Access ceases immediately. Cloud data deleted within 90 days per our Privacy Policy.</p>
@@ -656,7 +656,7 @@ export function TermsPage() {
         <h2><span className="lnum">13</span>Disclaimer of Warranties</h2>
         <div className="legal-disclaimer">
           <p>
-            THE SERVICES ARE PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, GLADOS AI EXPRESSLY DISCLAIMS ALL WARRANTIES INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND ANY WARRANTIES ARISING FROM COURSE OF DEALING OR USAGE OF TRADE. GLADOS AI DOES NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
+            THE SERVICES ARE PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, Vylith AI EXPRESSLY DISCLAIMS ALL WARRANTIES INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND ANY WARRANTIES ARISING FROM COURSE OF DEALING OR USAGE OF TRADE. Vylith AI DOES NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
           </p>
         </div>
       </div>
@@ -667,7 +667,7 @@ export function TermsPage() {
         <h2><span className="lnum">14</span>Limitation of Liability</h2>
         <div className="legal-disclaimer">
           <p>
-            TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, GLADOS AI AND ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, PARTNERS, AND LICENSORS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, REVENUE, DATA, BUSINESS OPPORTUNITIES, OR GOODWILL. IN NO EVENT SHALL GLADOS AI'S TOTAL CUMULATIVE LIABILITY EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID IN THE TWELVE MONTHS PRECEDING THE CLAIM, OR (B) ONE HUNDRED US DOLLARS ($100).
+            TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, Vylith AI AND ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, PARTNERS, AND LICENSORS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, REVENUE, DATA, BUSINESS OPPORTUNITIES, OR GOODWILL. IN NO EVENT SHALL Vylith AI'S TOTAL CUMULATIVE LIABILITY EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID IN THE TWELVE MONTHS PRECEDING THE CLAIM, OR (B) ONE HUNDRED US DOLLARS ($100).
           </p>
         </div>
       </div>
@@ -676,7 +676,7 @@ export function TermsPage() {
 
       <div className="legal-section" id="t-indemnify">
         <h2><span className="lnum">15</span>Indemnification</h2>
-        <p>You agree to defend, indemnify, and hold harmless GladOS AI from claims arising from:</p>
+        <p>You agree to defend, indemnify, and hold harmless Vylith AI from claims arising from:</p>
         <ul>
           <li>Your use of the Services</li>
           <li>Your violation of these Terms</li>
@@ -697,7 +697,7 @@ export function TermsPage() {
 
       <div className="legal-section" id="t-force">
         <h2><span className="lnum">17</span>Force Majeure</h2>
-        <p>GladOS AI is not liable for failures from causes beyond reasonable control: acts of God, natural disasters, war, terrorism, government actions, internet failures, power outages, or third-party disruptions.</p>
+        <p>Vylith AI is not liable for failures from causes beyond reasonable control: acts of God, natural disasters, war, terrorism, government actions, internet failures, power outages, or third-party disruptions.</p>
       </div>
 
       <div className="legal-divider" />
@@ -731,9 +731,9 @@ export function TermsPage() {
       <div className="legal-section" id="t-contact">
         <h2><span className="lnum">21</span>Contact Information</h2>
         <div className="legal-hl">
-          <div className="hl-label">GladOS AI Team</div>
+          <div className="hl-label">Vylith AI Team</div>
           <p>
-            Email: <a href="mailto:Glados-ai-dev@proton.me">Glados-ai-dev@proton.me</a>
+            Email: <a href="mailto:Vylith-ai-dev@proton.me">Vylith-ai-dev@proton.me</a>
             <br />
             For urgent legal matters, mark subject: URGENT — LEGAL
           </p>

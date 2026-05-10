@@ -33,7 +33,7 @@ interface ComparisonRow {
   feature: string;
   traditional: boolean | string;
   other: boolean | string;
-  glados: boolean;
+  Vylith: boolean;
 }
 
 interface Step {
@@ -87,7 +87,7 @@ const PRODUCTS: Product[] = [
   {
     badge: 'Available Now · Beta',
     badgeColor: 'bg-[#00e5ff]/10 text-[#00e5ff] border-[#00e5ff]/20',
-    title: 'GladOS Agent Core',
+    title: 'Vylith Agent Core',
     desc: 'Our flagship self-learning AI agent. Grows smarter with every conversation. Handles research, automation, communication, and complex reasoning — all from a simple chat interface. Deployable for individuals, teams, and enterprises.',
     icon: Cpu,
   },
@@ -126,7 +126,7 @@ const HOW_IT_WORKS: Step[] = [
   {
     num: '01',
     title: 'Connect',
-    desc: 'Deploy GladOS Agent in minutes via our platform or API.',
+    desc: 'Deploy Vylith Agent in minutes via our platform or API.',
     icon: Plug,
   },
   {
@@ -144,14 +144,14 @@ const HOW_IT_WORKS: Step[] = [
 ];
 
 const COMPARISON: ComparisonRow[] = [
-  { feature: 'Learns from every interaction', traditional: false, other: 'partial', glados: true },
-  { feature: 'Takes real-world action', traditional: false, other: 'partial', glados: true },
-  { feature: 'Researches autonomously', traditional: false, other: true, glados: true },
-  { feature: 'Works across industries', traditional: true, other: false, glados: true },
-  { feature: 'On-premise deployment option', traditional: true, other: false, glados: true },
-  { feature: 'Self-improving over time', traditional: false, other: 'partial', glados: true },
-  { feature: 'No coding required', traditional: false, other: true, glados: true },
-  { feature: 'Multi-agent orchestration', traditional: false, other: false, glados: true },
+  { feature: 'Learns from every interaction', traditional: false, other: 'partial', Vylith: true },
+  { feature: 'Takes real-world action', traditional: false, other: 'partial', Vylith: true },
+  { feature: 'Researches autonomously', traditional: false, other: true, Vylith: true },
+  { feature: 'Works across industries', traditional: true, other: false, Vylith: true },
+  { feature: 'On-premise deployment option', traditional: true, other: false, Vylith: true },
+  { feature: 'Self-improving over time', traditional: false, other: 'partial', Vylith: true },
+  { feature: 'No coding required', traditional: false, other: true, Vylith: true },
+  { feature: 'Multi-agent orchestration', traditional: false, other: false, Vylith: true },
 ];
 
 // ============================================
@@ -266,7 +266,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
           <a href="#" className="font-syne text-xl font-bold tracking-tight">
-            <span className="text-[#00e5ff]">GladOS</span>
+            <span className="text-[#00e5ff]">Vylith</span>
             <span className="text-white/60 ml-1">AI</span>
           </a>
 
@@ -434,14 +434,14 @@ function WhatIsSection() {
             data-delay="1"
           >
             What Is{' '}
-            <span className="gradient-text-subtle">GladOS AI</span>?
+            <span className="gradient-text-subtle">Vylith AI</span>?
           </h2>
           <p
             className="font-dm text-[15px] md:text-base text-white/40 leading-[1.85] max-w-3xl mx-auto"
             data-animate
             data-delay="2"
           >
-            GladOS AI is building a new category of artificial intelligence —
+            Vylith AI is building a new category of artificial intelligence —
             self-evolving agents that learn continuously from every interaction.
             Unlike static AI tools, our agents grow smarter with every
             conversation, autonomously research any topic, adapt to your
@@ -590,7 +590,7 @@ function GovernmentSection() {
             <span className="gradient-text-subtle">Enterprises and Governments</span>
           </h2>
           <p className="font-dm text-[15px] text-white/35 mt-6 max-w-2xl mx-auto leading-[1.8]">
-            GladOS AI agents are self-learning systems designed to handle the
+            Vylith AI agents are self-learning systems designed to handle the
             complexity, security requirements, and scale that enterprises and
             governments demand. Every interaction makes them smarter — continuously
             adapting to your organization's unique workflows and needs.
@@ -709,7 +709,7 @@ function ComparisonSection() {
               <span className="font-dm text-[11px] text-white/30 uppercase tracking-wider">Other AI Tools</span>
             </div>
             <div className="p-4 lg:p-5 text-center border-l border-[#00e5ff]/15 bg-[#00e5ff]/[0.03]">
-              <span className="font-dm text-[11px] text-[#00e5ff] uppercase tracking-wider font-medium">GladOS AI</span>
+              <span className="font-dm text-[11px] text-[#00e5ff] uppercase tracking-wider font-medium">Vylith AI</span>
             </div>
           </div>
 
@@ -731,7 +731,7 @@ function ComparisonSection() {
                 <ComparisonCell value={row.other} />
               </div>
               <div className="p-4 lg:p-5 flex items-center justify-center border-l border-[#00e5ff]/10 bg-[#00e5ff]/[0.02]">
-                <ComparisonCell value={row.glados} />
+                <ComparisonCell value={row.Vylith} />
               </div>
             </div>
           ))}
@@ -758,7 +758,7 @@ function ContactSection() {
             Request <span className="gradient-text-subtle">Early Access</span>
           </h2>
           <p className="font-dm text-[15px] text-white/35 mt-5 max-w-lg mx-auto leading-[1.8]">
-            GladOS AI is currently under active development. Reach out to learn
+            Vylith AI is currently under active development. Reach out to learn
             more about early access, partnerships, and enterprise deployments.
             Access is not guaranteed — we onboard selectively.
           </p>
@@ -781,15 +781,15 @@ function ContactSection() {
             drop us an email and we'll get back to you.
           </p>
           <a
-            href="mailto:Glados-ai-dev@proton.me"
+            href="mailto:Vylith-ai-dev@proton.me"
             className="btn-primary font-dm text-sm inline-flex items-center gap-2.5"
           >
             <Send size={15} />
-            Glados-ai-dev@proton.me
+            Vylith-ai-dev@proton.me
           </a>
           <div className="mt-10 pt-7 border-t border-white/5">
             <p className="font-dm text-[11px] text-white/20 leading-relaxed max-w-sm mx-auto">
-              GladOS AI is still under development. Early access is invite-only
+              Vylith AI is still under development. Early access is invite-only
               and not guaranteed. We review every request individually.
             </p>
           </div>
@@ -811,7 +811,7 @@ function FooterSection() {
           {/* Logo + Tagline */}
           <div>
             <a href="#" className="font-syne text-xl font-bold tracking-tight inline-block mb-3">
-              <span className="text-[#00e5ff]">GladOS</span>
+              <span className="text-[#00e5ff]">Vylith</span>
               <span className="text-white/60 ml-1">AI</span>
             </a>
             <p className="font-dm text-xs text-white/25 leading-relaxed">
@@ -863,7 +863,7 @@ function FooterSection() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/5 text-center">
           <p className="font-dm text-[11px] text-white/15">
-            © 2026 GladOS AI. All rights reserved.
+            © 2026 Vylith AI. All rights reserved.
           </p>
         </div>
       </div>
